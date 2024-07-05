@@ -4,7 +4,7 @@ import { PageComponent } from "@/components/app/page";
 
 export default async function Home() {
   const result = await client.queries.page({
-    relativePath: "home.md",
+    relativePath: "Home.md",
   });
   return <PageComponent {...result} />;
 }
